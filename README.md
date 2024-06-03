@@ -48,11 +48,11 @@ Adicione as URL's remotas do AzureAD e PowerBI as configurações de Remote Site
 ```bash
 Setup -> Remote Site Settings -> New Remote Site	
 ```
-<img src="images\readmestep4-1.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\step4-1.png" style="width:6.24324in;height:1.53896in" />
  
 ###
 
-<img src="images\readmestep4-2.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\step4-2.png" style="width:6.24324in;height:1.53896in" />
 
 
 ## Usage
@@ -60,22 +60,22 @@ Setup -> Remote Site Settings -> New Remote Site
 Após finalizar as etapas de configuração no setup do SF, é necessário realizar as alterações dentro da classe/componente LWC.
 Na classe "PowerBiEmbedManager", está configurado para realizar autenticação utilizando "password", caso deseje alterar para utilizar client_secret basta alterar o "grant_type" para "client_credentials"
 
-<img src="images\readmegranttype.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\granttype.png" style="width:6.24324in;height:1.53896in" />
 
 ###
 Caso deseje utilizar DataSetID, altere nesta linha:
 
-<img src="images\readmedatasetid.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\datasetid.png" style="width:6.24324in;height:1.53896in" />
 
 ###
 Este LWC está configurado para receber o WorkSpaceID e o ReportID através de uma property, mas caso deseje pode ser inserido dentro do proprio componente.
 
-<img src="images\readmeworkspaceid.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\workspaceid.png" style="width:6.24324in;height:1.53896in" />
 
 ###
 Os relátorios estão sendo filtrados através de uma coluna na tabela customer, como mostro abaixo.
 
-<img src="images\readmefilter.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\filter.png" style="width:6.24324in;height:1.53896in" />
 
 ###
 Também é possível adicionar uma Page especifica do relatório, caso deseje só é preciso buscar o pageName da pagina que deseja através dessa chamada abaixo.
@@ -83,7 +83,7 @@ Também é possível adicionar uma Page especifica do relatório, caso deseje s�
 https://api.powerbi.com/v1.0/myorg/groups/{groupID}/reports/{reportID}/pages/
 ```
 ###
-<img src="images\readmepagename.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\pagename.png" style="width:6.24324in;height:1.53896in" />
 
 
 
