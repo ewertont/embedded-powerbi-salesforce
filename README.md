@@ -1,10 +1,9 @@
 # Embedded PowerBI on SalesForce Experience Cloud
 
-É um projeto simples utilizado para apresentar os relatórios do Power BI através de um componente LWC no SalesForce Experience Cloud via iframe autenticado.
-Foi utilizado como base o repositorio [SalesforceAppOwnsDataEmbedding](https://github.com/PowerBiDevCamp/SalesforceAppOwnsDataEmbedding), aqui trago algumas alterações e passo a passo do que foi realizado para implementação.
+É um projeto simples utilizado para apresentar os relatórios do Power BI através de um componente LWC no SalesForce Experience Cloud via iframe autenticado. 
+Foi utilizado como base o repositório [SalesforceAppOwnsDataEmbedding](https://github.com/PowerBiDevCamp/SalesforceAppOwnsDataEmbedding), aqui trago algumas alterações e passo a passo do que foi realizado para implementação.
 
-O principal objetivo desse repositorio é apenas trazer facilidade no momento de implementar um relatorio embbedado do PowerBI no Salesforce.
-
+O principal objetivo desse repositório é apenas trazer facilidade no momento de implementar um relatório embbedado do PowerBI no SF.
 
 ## Configuration
 
@@ -34,7 +33,7 @@ Setup -> Custom Metadata Types -> Power BI Auth Setting -> Manage Records -> New
 
 ##
 
-Adicione o dominio do PowerBI ao Trusted URLs no setup.
+Adicione o domínio do PowerBI ao Trusted URLs no setup.
 
 ```bash
 Setup -> Trusted URLs -> New Trusted URLs	
@@ -68,12 +67,12 @@ Caso deseje utilizar DataSetID, altere nesta linha:
 <img src="images\readme\datasetid.png" style="width:6.24324in;height:1.53896in" />
 
 ###
-Este LWC está configurado para receber o WorkSpaceID e o ReportID através de uma property, mas caso deseje pode ser inserido dentro do proprio componente.
+Este LWC está configurado para receber o WorkSpaceID e o ReportID através de uma property, mas caso deseje pode ser inserido dentro do próprio componente.
 
 <img src="images\readme\workspaceid.png" style="width:6.24324in;height:1.53896in" />
 
 ###
-Os relátorios estão sendo filtrados através de uma coluna na tabela customer, como mostro abaixo.
+Os relatórios estão sendo filtrados através de uma coluna na tabela customer, como mostro abaixo.
 
 <img src="images\readme\filter.png" style="width:6.24324in;height:1.53896in" />
 
