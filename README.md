@@ -92,6 +92,11 @@ https://api.powerbi.com/v1.0/myorg/groups/{groupID}/reports/{reportID}/pages/
 [Power BI REST API's Public Workspace
 ](https://www.postman.com/power-bi/workspace/power-bi-rest-api-s-public-workspace/collection/3238008-03c5ba56-69a2-489c-af33-0ef101c577ec)
 
+[SalesforceAppOwnsDataEmbedding](https://github.com/PowerBiDevCamp/SalesforceAppOwnsDataEmbedding)
+
+[API--access-powerbi-without-login](https://github.com/athempeed/API--access-powerbi-without-login/tree/master)
+
+
 
 ## Contributing
 
