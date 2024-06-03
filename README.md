@@ -20,7 +20,7 @@ Crie um novo Custom Metadata Type
 Setup -> Custom Metadata Types -> New Custom Metadata Type 
 ```
 
-<img src="images\readmestep1.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\step1.png" style="width:6.24324in;height:1.53896in" />
 
 ##
 
@@ -30,7 +30,7 @@ Crie um novo registro com as informações de autenticação do seu ambiente/usu
 Setup -> Custom Metadata Types -> Power BI Auth Setting -> Manage Records -> New 	
 ```
 
-<img src="images\readmestep2.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\step2.png" style="width:6.24324in;height:1.53896in" />
 
 ##
 
@@ -39,7 +39,7 @@ Adicione o dominio do PowerBI ao Trusted URLs no setup.
 ```bash
 Setup -> Trusted URLs -> New Trusted URLs	
 ```
-<img src="images\readmestep3.png" style="width:6.24324in;height:1.53896in" />
+<img src="images\readme\step3.png" style="width:6.24324in;height:1.53896in" />
 
 ##
 
